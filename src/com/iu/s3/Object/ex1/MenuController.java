@@ -15,7 +15,7 @@ public class MenuController {
 		int count = sc.nextInt();
 		Student [] students = new Student [count];
 		
-		while (check) {
+		while (check)     {
 			
 			  System.out.println("1학생 정보 일력");
 			  System.out.println("2학생 검색 정보 출력");
@@ -58,8 +58,8 @@ public class MenuController {
 				  
 				 break;
 			  }
-		  }	 
-	}
+		      }	 
+	          }
 	
 	// start
 	//1. 등록
