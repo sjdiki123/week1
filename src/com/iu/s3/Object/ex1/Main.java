@@ -9,7 +9,7 @@ public class Main {
 		mt.Start();
 		  System.out.println("끝");
                  System.out.println("집에서 추가");
-		
+		//추가
 //		StudentView sv =new StudentView();
 //		Student student = new Student();
 //		student.name="iu";
