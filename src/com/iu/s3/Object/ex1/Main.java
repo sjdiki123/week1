@@ -3,7 +3,7 @@ package com.iu.s3.Object.ex1;
 public class Main {
 
 	public static void main(String[] args) {
-  
+  System.out.println("시작");
 		MenuController mt = new MenuController();
 		
 		mt.Start();
