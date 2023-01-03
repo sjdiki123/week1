@@ -7,6 +7,9 @@ public class Main {
 		MenuController mt = new MenuController();
 		
 		mt.Start();
+		  System.out.println("끝");
+
+		
 //		StudentView sv =new StudentView();
 //		Student student = new Student();
 //		student.name="iu";
