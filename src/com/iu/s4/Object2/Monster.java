@@ -3,10 +3,21 @@ package com.iu.s4.Object2;
 public class Monster {
 
 	//멤버 변수  instance변수
-	int power ;
-	int hp;
+	int power =10 ;
+	int hp=100;
+	
+	//생성자 Constructor
+	
+	public Monster() {
+		//매개변수가 없는 생성자를 기본 생성자 
+		this.power=50;this .hp = 60;
+		System.out.println(" 생성자 실행");
+	}
 	
 	
+	public Monster(int power ) {
+		
+	}
 	// 멤버메서드,instance method
 	
 	

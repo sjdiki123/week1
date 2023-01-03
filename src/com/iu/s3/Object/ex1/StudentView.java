@@ -6,7 +6,7 @@ public class StudentView {
 // list만둘기
 	//학생들을 받아서 학생의 정보를 풀력
 	//한생 한명을 받아서 학생의 모든 정보를 풀력
-	public void viewOne(Student student) {
+	public void view(Student student) {
 		System.out.println("Name : "+student.name);
 		System.out.println("Num : "+student.num);
 		System.out.println("Kor : "+student.kor);
@@ -19,21 +19,14 @@ public class StudentView {
 }
 	
 
-public void viewList(Student [] students) {
+public void view(Student [] students) {
 	
 	
 	for(int i =0 ; i<students.length;i++) {
 		Student student = students[i];
 		//System.out.println(students[i]);
-		
-		System.out.println("name" +student.name);
-		System.out.println("num" +student.num);
-		System.out.println("kor" +student.kor);
-		System.out.println("eng" +student.eng);
-		System.out.println("math" +student.math);
-		System.out.println("total" +student.total);
-		System.out.println("avg" +student.avg);
-
+		this.view(student);
+	
 
 	}
 }

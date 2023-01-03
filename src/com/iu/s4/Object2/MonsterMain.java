@@ -11,7 +11,7 @@ public class MonsterMain {
 		mon1.hp= 100;
 		
 		System.out.println(mon1 == mon2);
-		boolean result = mon1.checkValue(mon2);
+		boolean result = mon2.checkValue(mon1);
 		System.out.println("Result:" + result);
 //		System.out.println(mon1);
 //		mon1 .info();

@@ -35,7 +35,7 @@ public class MenuController {
 				Student student= si.findStudent(students);
 				 if(student !=null) {
 				
-					si1.viewOne(student);
+					si1.view(student);
 				 }else{
 				 System.out.println(" 없어여");
 					 
@@ -44,7 +44,7 @@ public class MenuController {
 				  
 			  case 3:
 				  System.out.println();
-				  si1.viewList(students);
+				  si1.view(students);
 				  break;
 			  case 4:
 					students= si.setStudent(students);
