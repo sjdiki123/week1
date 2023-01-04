@@ -4,7 +4,7 @@ public class GodMain {
 
 	public static void main(String[] args) {
 		
-
+//singleㅆon 디자인 패턴
 
 	God god =	God.getInstance();	
 	god.setName("유일신");

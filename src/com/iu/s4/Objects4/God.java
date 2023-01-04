@@ -2,16 +2,19 @@ package com.iu.s4.Objects4;
 
 public class God {
 
-             private String name; 	
+             private  static final String  MY_NAME = "  " ; 	
              private static God god ; 	
              
              
-             private God() {}
+             private God() 
+             {
+            	 
+             }
 
              
              
              
-             public static God getInstance() {
+             public static God getInstance(){
             	 if(God.god ==null) {
             		God. god =new God();
             	 }
@@ -22,7 +25,7 @@ public class God {
              
              
              
-			public String getName() {
+			public final String getName() {
 				return name;
 			}
 
