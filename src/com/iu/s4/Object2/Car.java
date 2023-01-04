@@ -3,21 +3,25 @@ package com.iu.s4.Object2;
 import java.util.Scanner;
 
 public class Car {
-	Scanner sc = new Scanner(System.in);
 
 	String name ;
-	String company;
+	static String company;
 	int price;
 	String color;
 	
-	
+	{
+		//초기화 블럭
+		System.out.println("초기화블럭" + this.company);
+		this.company = " audi";
+	}
 	public Car() {
-		this ("black");
-//		this.company = "기아";
-//		this.name = "스포티치";
-//		this.price = 3500;
-//		this.color = "black";
-//		
+	//	this ("black");
+		System.out.println("생성자 "+ this.company);
+		this.company = "기아";
+		this.name = "스포티치";
+		this.price = 3500;
+		this.color = "black";
+		
 	}
 	
 	public Car(String color) {
