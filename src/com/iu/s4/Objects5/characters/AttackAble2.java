@@ -1,5 +1,9 @@
 package com.iu.s4.Objects5.characters;
 
-public interface AttackAble2 {
+public interface AttackAble2 extends Appendable {
+	
 
+	
+	
+	
 }
